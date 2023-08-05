@@ -59,3 +59,12 @@ On the local machine (my laptop) i've VSCode running on Linux. We installed the 
 On the remote LXC-container we installed the VSCode DevContainers-extension. We cloned our own fork of Home Assistant repository in a Container Volume. Using the repository VSCode has created a devcontainer. In the devcontainer we installed all the Python packages via the PIP-command.
 
 This setup allows us to also do development from other machines with VSCode installed to continue development. 
+
+## Improvements
+[ ] It might actually be easier to choose "Advanced"-route in using the TTeck scripts and already increase the disk-size to 10gb or larger.
+[ ] Having the Repository cloned in a container volume, might reduce performance and make people wonder where their files are. But file-permission issues then need to be easily fixed.
+[ ] Describe how to fork Home Assistant repository
+[ ] Describe how to commit first changes to branch and complete Home Assistant setup.
+[ ] Maybe more efficient to use Alpine Docker SSH container as base
+[ ] Describe Linux host
+[ ] Use name "Key based authentication"
